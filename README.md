@@ -4,6 +4,14 @@
 [![Tests](https://github.com/Uniswap/uniswap-interface/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions?query=workflow%3ATests)
 [![Styled With Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
+===================
+
+Morpheus Labs forked this the source code from UniSwap as a reference web application for proviuder Decentralized Swap functions like UniSwap. Users can explore, modify and test the web application on Morpheus Labs SEED platform.
+
+Since this is a GNU License, for SEED platform users or any users who need to fork or clone the UniSwap Web App need to explicitly fork from this repo.
+
+===================
+
 An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 
 - Website: [uniswap.org](https://uniswap.org/)
