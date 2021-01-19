@@ -49,6 +49,8 @@ yarn
 yarn start
 ```
 
+The info below is to help understand the dependencies.
+
 ### Configuring the environment (optional)
 
 To have the interface default to a different network when a wallet is not connected:
@@ -72,3 +74,55 @@ CI checks will run against all PRs.
 The Uniswap Interface supports swapping against, and migrating or removing liquidity from Uniswap V1. However,
 if you would like to use Uniswap V1, the Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways 
 linked from the [v1.0.0 release](https://github.com/Uniswap/uniswap-interface/releases/tag/v1.0.0).
+
+
+The dependencies can be seen from its file "package.json" as belows.
+
+1. Smart contract
+
+**@uniswap/governance**
+
+https://github.com/Uniswap/governance
+Governance contracts for the Uniswap protocol
+
+**@uniswap/liquidity-staker**
+
+https://github.com/Uniswap/liquidity-staker
+Initial UNI liquidity staking contracts
+
+**@uniswap/merkle-distributor**
+
+https://github.com/Uniswap/merkle-distributor
+A smart contract that distributes a balance of tokens according to a merkle root
+
+**@uniswap/v2-core**
+
+https://github.com/Uniswap/uniswap-v2-core
+Core smart contracts of Uniswap V2
+
+**@uniswap/v2-periphery**
+
+https://github.com/Uniswap/uniswap-v2-periphery
+Peripheral smart contracts for interacting with Uniswap V2
+
+**Notice**
+
+The deployed contract addresses can be found in this file:
+https://github.com/Uniswap/uniswap-interface/blob/master/src/constants/index.ts
+
+2. SDK 
+
+**@uniswap/sdk**
+
+https://github.com/Uniswap/uniswap-sdk
+An SDK for building applications on top of Uniswap.
+
+**@uniswap/token-lists**
+
+https://github.com/Uniswap/token-lists
+The Token Lists specification
+
+**Notice**
+
+There is no backend component.
+
